@@ -1,6 +1,6 @@
-function greet (name){
+function add(a,b){
 
-    return `Hello, ${name}!`;
+    return a + b
 
 }
 
@@ -16,4 +16,4 @@ if (require.name===module){
     })
 }
 
-module.exports = {greet}
+module.exports = {add}

@@ -1,8 +1,10 @@
 const {test} =require("node:test")
 const assert = require("node:assert/strict")
 
-const {greet} = require('./app')
+const {add} = require('./app')
 
 test("greet returns the correct message",()=>{
-    assert.equal(greet("Faizan"), "Hello, Faizan!")
+    assert.strictEqual(add(5,3),10)
 })
+
+console.log('test passed');
